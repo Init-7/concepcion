@@ -394,97 +394,98 @@ Zonificacion_shp = os.path.abspath(
 def run1(verbose=True):
     lm = LayerMapping(
         areaVerde, areaVerde_shp, areaVerde_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
 
 def run2(verbose=True):
     lm = LayerMapping(
         centrosDeportivos, centrosDeportivos_shp, centrosDeportivos_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
+    
 def run3(verbose=True):
     lm = LayerMapping(
         centrosPoliciales, centrosPoliciales_shp, centrosPoliciales_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
 def run4(verbose=True):
     lm = LayerMapping(
         centrosReligiosos, centrosReligiosos_shp, centrosReligiosos_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
 
 def run5(verbose=True):
     lm = LayerMapping(
         cotasDeElevacion, cotasDeElevacion_shp, cotasDeElevacion_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
 
 def run6(verbose=True):
     lm = LayerMapping(
         curvasDeNivel, curvasDeNivel_shp, curvasDeNivel_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
   
 def run7(verbose=True):
     lm = LayerMapping(
         edificacionPoligonos, edificacionPoligonos_shp, edificacionPoligonos_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
   
 def run8(verbose=True):
     lm = LayerMapping(
         Edificaciones, Edificaciones_shp, Edificaciones_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
 def run9(verbose=True):
     lm = LayerMapping(
         ejercitoArmada, ejercitoArmada_shp, ejercitoArmada_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
 def run10(verbose=True):
     lm = LayerMapping(
         Ejes, Ejes_shp, Ejes_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
 def run11(verbose=True):
     lm = LayerMapping(
         Electrificacion, Electrificacion_shp, Electrificacion_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
 def run12(verbose=True):
     lm = LayerMapping(
         Ferrocaril, Ferrocaril_shp, Ferrocaril_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
 def run13(verbose=True):
     lm = LayerMapping(
         Ffcc, Ffcc_shp, Ffcc_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
 def run14(verbose=True):
     lm = LayerMapping(
         Hidrografia, Hidrografia_shp, Hidrografia_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
@@ -498,21 +499,21 @@ def run15(verbose=True):
 def run16(verbose=True):
     lm = LayerMapping(
         Manzanas, Manzanas_shp, Manzanas_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
 def run17(verbose=True):
     lm = LayerMapping(
         obrasCivilesViales, obrasCivilesViales_shp, obrasCivilesViales_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
 def run18(verbose=True):
     lm = LayerMapping(
         plantaTratamientoDeAguas, plantaTratamientoDeAguas_shp, plantaTratamientoDeAguas_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
@@ -526,90 +527,90 @@ def run19(verbose=True):
 def run20(verbose=True):
     lm = LayerMapping(
         puntosDeControlTerrestre, puntosDeControlTerrestre_shp, puntosDeControlTerrestre_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
 def run21(verbose=True):
     lm = LayerMapping(
         recintoDeEjercitoYArmada, recintoDeEjercitoYArmada_shp, recintoDeEjercitoYArmada_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
 def run22(verbose=True):
     lm = LayerMapping(
         recintosDeportivos, recintosDeportivos_shp, recintosDeportivos_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
 def run23(verbose=True):
     lm = LayerMapping(
         recintosEducacionales, recintosEducacionales_shp, recintosEducacionales_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
 def run24(verbose=True):
     lm = LayerMapping(
         recintosPoliciales, recintosPoliciales_shp, recintosPoliciales_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
 def run25(verbose=True):
     lm = LayerMapping(
         recintosReligiosos, recintosReligiosos_shp, recintosReligiosos_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
 def run26(verbose=True):
     lm = LayerMapping(
         recintosSalud, recintosSalud_shp, recintosSalud_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
 def run27(verbose=True):
     lm = LayerMapping(
         Salud, Salud_shp, Salud_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
 def run28(verbose=True):
     lm = LayerMapping(
         Soleras, Soleras_shp, Soleras_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
 def run29(verbose=True):
     lm = LayerMapping(
         textoDescriptivo, textoDescriptivo_shp, textoDescriptivo_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
 def run30(verbose=True):
     lm = LayerMapping(
         Vialidad, Vialidad_shp, Vialidad_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
 def run31(verbose=True):
     lm = LayerMapping(
         viasEstructurantes, viasEstructurantes_shp, viasEstructurantes_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
     
 def run32(verbose=True):
     lm = LayerMapping(
         Zonificacion, Zonificacion_shp, Zonificacion_mapping,
-        transform=False, encoding='utf-8',
+        transform=True, encoding='utf-8', source_srs='32718',
     )
     lm.save(strict=False, verbose=verbose)
