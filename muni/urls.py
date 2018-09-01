@@ -8,11 +8,11 @@ from djgeojson.views import TiledGeoJSONLayerView
 
 urlpatterns = [
     url(r'^Areasverdes/$', TemplateView.as_view(template_name='muni/areaVerde.html'), name='area-verde'),
-    url(r'^areaVerde/$', GeoJSONLayerView.as_view(model=areaVerde, properties=('rol_manzan', 'numero_pre')), name='areaVerde-hq'),
-    url(r'^areaVerde.simple/$', SimpleMapLayer.as_view(model=areaVerde, properties=('rol_manzan', 'numero_pre')), name='areaVerde'),
+    url(r'^areaVerde/$', GeoJSONLayerView.as_view(model=areaVerde, properties=('rol_manzan', 'numero_pre')), name='areaVerde'),
+    url(r'^areaVerde.simple/$', SimpleMapLayer.as_view(model=areaVerde, properties=('rol_manzan', 'numero_pre')), name='areaVerde-lq'),
     url(r'^CentrosDeportivos/$', TemplateView.as_view(template_name='muni/centrosDeportivos.html'), name='deporte'),
-    url(r'^centrosDeportivos/$', GeoJSONLayerView.as_view(model=centrosDeportivos, properties=('id_cd')), name='centrosDeportivos-hq'),
-    url(r'^centrosDeportivos.simple/$', SimpleMapLayer.as_view(model=centrosDeportivos, properties=('id_cd')), name='centrosDeportivos'), 
+    url(r'^centrosDeportivos/$', GeoJSONLayerView.as_view(model=centrosDeportivos, properties=('id_cd')), name='centrosDeportivos'),
+    url(r'^centrosDeportivos.simple/$', SimpleMapLayer.as_view(model=centrosDeportivos, properties=('id_cd')), name='centrosDeportivos-lq'), 
     url(r'^CentrosPoliciales/$', TemplateView.as_view(template_name='muni/centrosPoliciales.html'), name='policia'),
     url(r'^centrosPoliciales/$', GeoJSONLayerView.as_view(model=centrosPoliciales, properties=('id_cp')), name='centrosPoliciales-hq'),
     url(r'^centrosPoliciales.simple/$', SimpleMapLayer.as_view(model=centrosPoliciales, properties=('id_cp')), name='centrosPoliciales'), 

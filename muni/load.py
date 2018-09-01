@@ -221,7 +221,7 @@ obrasCivilesViales_mapping = {
 }
 
 obrasCivilesViales_shp = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), 'data', 'obras_civiles_viales.shp'),
+    os.path.join(os.path.dirname(__file__), 'data', "obras_civiles_viales.shp"),
 )
 
     
